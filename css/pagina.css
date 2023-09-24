@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+* {
+    background: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #00ff08;
+
+}
+h2{
+    color: #00ff08;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    color: #00ff08;
+    
+}
+h4{
+    color:#00ff08;
+}
+
+.imagen1{ 
+    width: 300px;
+    height: 200px;
+}
+
+.imagen2{
+    width: 300px;
+    height: 200px;
+}
+
+.imagen3{
+    width: 300px;
+    height: 200px;
+}
+.imagenjuego{
+    margin-right: 15%;
+    margin-left:15%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav {
+    width: 100%;
+    height: 80px;
+    background: #00ff08;
+    border-bottom: 1px solid transparent;
+    box-shadow: 10px 10px 80px 0 green;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.nav {
+    
+    display: flex;
+    justify-content: flex-start;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    padding: 0 40px;
+    
+}
+.nav .logo img {
+    height: 60px;
+}
+.nav .enlaces_header a {
+    color: rgb(34, 255, 0);
+    text-decoration: none;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 12px;
+    
+}
+.contenido_header {
+    width: 15px;
+    height: 25px;
+  
+}
+
+.letra{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 250px;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 1px;
+}
+.con{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left:  1px;
+}
+.boton{
+    background-color: #ffffff;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+   margin-top: 10px;
+   padding: 15px;
+   margin-left: 650px;
+   text-align: center;
+
+}
+.jp{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 15px;
+    display: flex;
+}
+.p1{
+    display: flex;
+    text-align: center;
+}
+.pla{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 1%;
+    display: flex;
+}
+
+.menu{
+    color: rgb(34, 255, 0);
+    text-decoration: none;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 12px;
+    
+}
+.juego{
+    text-align: center;
+ 
+}
